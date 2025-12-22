@@ -1,0 +1,283 @@
+/* Base CSS */
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+:root {
+    --button-color: #1ebfc1;
+}
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+/* Common */
+a {
+    text-decoration: none;
+}
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp, 1);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.line-clamp.line-2 {
+    --line-clamp: 2;
+}
+.line-clamp.line-3 {
+    --line-clamp: 3;
+}
+.break-all {
+    word-break: break-all;
+}
+.content {
+    width: 1170px;
+    max-width: calc(100vw - 48px);
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+}
+.btn {
+    display: inline-block;
+    line-height: 68px;
+    text-align: center;
+    min-width: 186px;
+    border-radius: 14px;
+    background: var(--button-color);
+    color: #fff;
+    font-family: "Poppins";
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.05);
+}
+.btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* Header */
+.header {
+    margin-top: 52px;
+    background: #fff;
+}
+.header .content {
+    display: flex;
+    align-items: center;
+}
+.header .logo {
+    width: 127px;
+    height: 37px;
+}
+.header .nav {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+.header .nav ul {
+    display: flex;
+    gap: 39px;
+}
+.header .nav ul a {
+    color: #2f3a3b;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.nav li.active a {
+    font-weight: 600;
+}
+.header .action {
+    margin-left: 177px;
+}
+.header .action button {
+    color: #494949;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.header .action .up-btn {
+    margin-left: 24px;
+    min-width: 108px;
+    line-height: 48px;
+    color: #1ebfc1;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    background: #fff;
+}
+.header .action .up-btn:hover {
+    background: var(--button-color);
+    color: #fff;
+}
+/* Hero */
+.hero {
+    margin-top: 50px;
+    background: #fff;
+    padding-bottom: 79px;
+}
+.hero .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .hero-content {
+    width: calc(458 / 1170 * 100%);
+}
+.hero-content .hero-special {
+    color: #767e7e;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.hero-content .hero-title {
+    margin-top: 18px;
+    width: 458px;
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px; /* 116.129% */
+}
+.hero-content .hero-desc {
+    margin-top: 46px;
+    width: 374px;
+    color: #9da6a5;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+.hero-content .cta {
+    margin-top: 52px;
+    display: flex;
+    align-items: center;
+}
+.hero-content .cta .watch-video {
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    border-radius: 62px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.hero-content .cta .icon {
+    margin-top: 47px;
+}
+/* Hero image */
+.hero-image {
+    width: calc(576 / 1170 * 100%);
+    background: #e0f7f6;
+    margin-left: auto;
+    position: relative;
+}
+.hero-image .hero-img {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
+.hero-image .course {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 149px;
+    left: -40px;
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+}
+.hero-image .course .book {
+    position: relative;
+    width: 36px;
+    height: 40px;
+    margin: 17px 0 18px 25px;
+}
+.hero-image .course .book-icon2 {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hero-image .course-desc {
+    margin-left: 16px;
+    width: 55px;
+}
+.hero-image .desc {
+    color: #0d1111;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero-image .schedule {
+    position: absolute;
+    bottom: 46px;
+    left: -65px;
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0 10px 80px 0 rgba(0, 0, 0, 0.05);
+}
+.hero-image .schedule .schedule-desc {
+    padding-top: 16px;
+    margin-left: 36px;
+}
+.hero-image .schedule .schedule-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-image .schedule-icon .icon-1,
+.hero-image .schedule-icon .icon-2,
+.hero-image .schedule-icon .icon-3 {
+    width: 74px;
+    height: 6px;
+}
+.hero-image .schedule-icon .icon-1 {
+    margin-top: 16px;
+}
+.hero-image .schedule-icon .icon-2 {
+    margin-top: 12px;
+}
+.hero-image .schedule-icon .icon-3 {
+    margin-top: 10px;
+}
+.hero-image .schedule-icon .icon-4 {
+    margin-top: 16px;
+    width: 26px;
+    height: 6px;
+}
+.hero-image .act-students {
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0 12px 80px 0 rgba(0, 0, 0, 0.05);
+}
+.hero-image .act-students .act-students-desc {
+    margin-top: 17px;
+    margin-left: 35px;
+}
+.hero-image .act-students .avt {
+    margin-left: 35px;
+    margin-top: 8px;
+}
+.hero-image .act-students img {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    object-fit: cover;
+}
