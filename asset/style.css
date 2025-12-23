@@ -59,8 +59,13 @@ a {
 }
 /* Header */
 .header {
-    margin-top: 52px;
-    background: #fff;
+    padding-top: 52px;
+    background-color: #fff;
+}
+.header.fixed {
+    position: sticky;
+    top: -32px;
+    z-index: 1;
 }
 .header .content {
     display: flex;
@@ -117,7 +122,7 @@ a {
 }
 /* Hero */
 .hero {
-    margin-top: 50px;
+    padding-top: 50px;
     background: #fff;
     padding-bottom: 79px;
 }
@@ -280,4 +285,28 @@ a {
     height: 33px;
     border-radius: 50%;
     object-fit: cover;
+}
+.act-students .avt {
+    display: flex;
+    align-items: center;
+}
+.act-students .avt .student-avt:not(:first-child) {
+    margin-left: -7px;
+}
+.act-students .avt .more {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #1ebfc1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-left: -7px;
 }
