@@ -74,6 +74,7 @@ a {
 .header .logo {
     width: 127px;
     height: 37px;
+    cursor: pointer;
 }
 .header .nav {
     margin-left: auto;
