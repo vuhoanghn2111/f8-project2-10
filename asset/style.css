@@ -442,7 +442,7 @@ a {
     height: 393px;
     object-fit: cover;
     opacity: 0.35;
-    background: #D0EFED;
+    background: #d0efed;
     border-radius: 8px;
 }
 .course-card .course-img:hover {
@@ -483,6 +483,7 @@ a {
     line-height: normal;
 }
 .course-info .course-desc {
+    width: 275px;
     margin-top: 6px;
     color: #9da6a5;
     font-family: Poppins;
@@ -506,6 +507,38 @@ a {
     color: #9da6a5;
     font-family: Poppins;
     font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/* Count down */
+.count .count-container {
+    margin-top: 265px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 862px;
+    gap: 200px;
+}
+.count-container .count-item {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.count-item .count-value {
+    color: #0d1111;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 6.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.count-item .count-label {
+    color: #767e7e;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
