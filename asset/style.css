@@ -378,3 +378,135 @@ a {
 .feature-item .feature-text:last-child {
     width: 224px;
 }
+/* Course */
+.course {
+    margin-top: 130px;
+}
+.course .content {
+    width: 1171px;
+}
+.course .course-title {
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.course .course-sub {
+    margin-top: 18px;
+    color: #0d1111;
+    font-family: Poppins;
+    font-size: 4.2rem;
+    font-weight: 700;
+}
+.course .row {
+    justify-content: space-between;
+    align-items: center;
+}
+.course .course-desc {
+    width: 525px;
+    margin-top: 19px;
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 32px; /* 177.778% */
+}
+.course .course-button {
+    color: #1ebfc1;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    border: none;
+    background: #fff;
+    cursor: pointer;
+}
+.course-list {
+    margin-top: 79px;
+    display: flex;
+    gap: 47px;
+}
+.course-list .course-card {
+    width: 359px;
+    height: 393px;
+    border-radius: 8px;
+    position: relative;
+}
+.course-card .course-img {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    opacity: 0.35;
+    background: #D0EFED;
+    border-radius: 8px;
+}
+.course-card .course-img:hover {
+    opacity: 1;
+}
+.course-card .course-info {
+    position: absolute;
+    bottom: -124px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 325px;
+    height: 195px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 16px 90px 0 rgba(0, 0, 0, 0.05);
+}
+.course-info .course-box {
+    margin-top: 18px;
+    margin-left: 25px;
+}
+.course-info .course-name,
+.course-info .course-fee strong {
+    color: #0d1111;
+    font-family: Poppins;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.course-info .course-fee {
+    display: block;
+    margin-top: 16px;
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.course-info .course-desc {
+    margin-top: 6px;
+    color: #9da6a5;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.course-info .course-meta {
+    margin-top: 18px;
+    display: flex;
+    gap: 10px;
+}
+.course-meta .classes,
+.course-meta .time {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.course-meta .text {
+    color: #9da6a5;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
