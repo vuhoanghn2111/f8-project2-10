@@ -227,10 +227,7 @@ a {
     line-height: normal;
 }
 .hero-image .course .course-desc {
-    display: flex;
-    margin: auto;
     width: 55px;
-    color: #0d1111;
 }
 .hero-image .schedule {
     position: absolute;
@@ -548,4 +545,97 @@ a {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+/* Testimonial */
+.testimonial {
+    margin-top: 264px;
+}
+.testimonial .content {
+    display: flex;
+    align-items: center;
+}
+.testimonial .test-container {
+    width: 419px;
+}
+.test-container .icon {
+    margin-top: 37px;
+}
+.test-container .test-desc {
+    margin-top: 27px;
+    width: 419px;
+    color: #5d6564;
+    font-family: Poppins;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px; /* 150% */
+}
+.test-container .author {
+    display: block;
+    margin-top: 33px;
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.test-container .author strong {
+    color: #070707;
+    font-family: Poppins;
+    font-weight: 500;
+}
+.test-container .test-act {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+.test-avt {
+    margin-left: 345px;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    position: relative;
+    border: transparent;
+}
+.test-avt .move-avt {
+    clip-path: circle(50% at 50% 50%);
+}
+.test-avt .main-avt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ff8282;
+}
+.test-avt .avt-1 {
+    position: absolute;
+    top: -107px;
+    left: -129px;
+    background-color: #1ebfc1;
+}
+.test-avt .avt-2 {
+    position: absolute;
+    top: -88px;
+    right: -171px;
+    background-color: #bf83ff;
+}
+.test-avt .avt-3 {
+    position: absolute;
+    right: -139px;
+    bottom: -110px;
+    background-color: #b1dfdc;
+}
+.test-avt .avt-4 {
+    position: absolute;
+    left: -61px;
+    bottom: -139px;
+    background-color: #ff947a;
+}
+.test-avt .avt-5 {
+    position: absolute;
+    left: -273px;
+    bottom: 6px;
+    background-color: #ffc147;
 }
