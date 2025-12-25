@@ -4,6 +4,7 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 :root {
     --button-color: #1ebfc1;
@@ -159,12 +160,12 @@ a {
     font-weight: 400;
     line-height: 32px; /* 177.778% */
 }
-.hero-content .cta {
+.hero-content .hero-cta {
     margin-top: 52px;
     display: flex;
     align-items: center;
 }
-.hero-content .cta .watch-video {
+.hero-content .hero-cta .watch-video {
     margin-left: 50px;
     width: 62px;
     height: 62px;
@@ -174,10 +175,12 @@ a {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    background: none;
 }
-.hero-content .cta .icon {
+.hero-content .hero-cta .icon {
     margin-top: 47px;
 }
+    
 /* Hero image */
 .hero-image {
     width: calc(576 / 1170 * 100%);
@@ -654,4 +657,109 @@ a {
     left: -273px;
     bottom: 6px;
     background-color: #ffc147;
+}
+/* CTA */
+.cta {
+    margin-top: 130px;
+    background: #def6f5;
+}
+.cta-content {
+    margin-left: calc((100vw - 1170px) / 2);
+    display: flex;
+    align-items: center;
+    gap: 410px;
+}
+.cta-content .cta-container {
+    margin-top: 76px;
+    margin-bottom: 88px;
+}
+.cta-container .cta-title {
+    width: 420px;
+    color: #070707;
+    font-family: Poppins;
+    font-size: 4.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.cta-container .cta-desc {
+    width: 397px;
+    margin-top: 18px;
+    color: #767e7e;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cta-container .cta-btn {
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* Footer */
+footer {
+    margin-top: 131px;
+    background: #fff;
+}
+.main-footer {
+    display: flex;
+}
+.main-footer .footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.main-footer .footer-col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.main-footer .heading-col {
+    color: #2e2e2e;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.main-footer .company-col {
+    margin-left: 144px;
+}
+.main-footer .community-col {
+    margin-left: 144px;
+}
+.main-footer .teaching-col {
+    margin-left: 148px;
+    min-width: 157px;
+}
+.main-footer .social-col {
+    margin-left: 146px;
+}
+.main-footer li a {
+    color: #535353;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.main-footer li a:hover {
+    text-decoration: underline;
+}
+.main-footer .social-col li {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+.end-footer {
+    margin-top: 91px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.end-ft {
+    color: #b0b5b4;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-weight: 400;
 }
