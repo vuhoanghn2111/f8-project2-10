@@ -585,10 +585,26 @@ a {
     font-family: Poppins;
     font-weight: 500;
 }
-.test-container .test-act {
-    margin-top: 52px;
+.test-container .test-control {
     display: flex;
     gap: 30px;
+}
+.test-container .test-control .control-btn {
+    margin-top: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #2ac9bf;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #2ac9bf;
+}
+.test-container .test-control .control-btn:hover {
+    background: #2ac9bf;
+    color: #fff;
+    cursor: pointer;
 }
 .test-avt {
     margin-left: 345px;
