@@ -194,7 +194,7 @@ a {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 149px;
+    top: 19px;
     left: -40px;
     width: 157px;
     height: 75px;
@@ -221,10 +221,16 @@ a {
 .hero-image .desc {
     color: #0d1111;
     font-family: Poppins;
-    font-size: 10px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.hero-image .course .course-desc {
+    display: flex;
+    margin: auto;
+    width: 55px;
+    color: #0d1111;
 }
 .hero-image .schedule {
     position: absolute;
@@ -307,7 +313,7 @@ a {
     color: #fff;
     text-align: center;
     font-family: Poppins;
-    font-size: 10px;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -402,7 +408,7 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-.course .course-desc {
+.course .course-description {
     width: 525px;
     margin-top: 19px;
     color: #767e7e;
