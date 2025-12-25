@@ -746,6 +746,7 @@ footer {
 }
 .main-footer li a:hover {
     text-decoration: underline;
+    text-shadow: 1px 0 currentColor;
 }
 .main-footer .social-col li {
     display: flex;
