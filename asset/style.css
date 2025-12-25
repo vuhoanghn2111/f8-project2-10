@@ -753,6 +753,9 @@ footer {
     gap: 9px;
     align-items: center;
 }
+.main-footer .social-icon {
+    margin-top: 4px;
+}
 .end-footer {
     margin-top: 91px;
     margin-bottom: 50px;
