@@ -180,7 +180,7 @@ a {
 .hero-content .hero-cta .icon {
     margin-top: 47px;
 }
-    
+
 /* Hero image */
 .hero-image {
     width: calc(576 / 1170 * 100%);
@@ -301,6 +301,18 @@ a {
 }
 .act-students .avt .student-avt:not(:first-child) {
     margin-left: -7px;
+}
+.act-students .student-1 {
+    background-color: #1ebfc1;
+}
+.act-students .student-2 {
+    background-color: #ffc147;
+}
+.act-students .student-3 {
+    background-color: #ff947a;
+}
+.act-students .student-4 {
+    background-color: #bf83ff;
 }
 .act-students .avt .more {
     width: 33px;
