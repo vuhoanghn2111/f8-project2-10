@@ -84,13 +84,14 @@ a {
 }
 .header .nav ul {
     display: flex;
-    gap: 39px;
+    gap: 9px;
 }
 .header .nav ul a {
     color: #2f3a3b;
     font-family: Poppins;
     font-size: 1.6rem;
     font-weight: 400;
+    padding: 15px;
 }
 .nav li.active a,
 .nav li a:hover {
@@ -108,9 +109,10 @@ a {
     border: none;
     background: none;
     cursor: pointer;
+    padding: 15px;
 }
 .header .action .up-btn {
-    margin-left: 24px;
+    margin-left: 9px;
     min-width: 108px;
     line-height: 48px;
     color: #1ebfc1;
